@@ -106,7 +106,7 @@ body {
 .feature {
     flex-basis: 30%;
     text-align: center;
-    padding: 0px 11px;
+    padding: 10px 11px 110px 11px;
 }
 
 .feature__icon {
@@ -127,4 +127,19 @@ body {
 
 .feature__text {
     line-height: 1.5;
+}
+
+/*SECTION COMPANIES */
+
+.companies {
+    background-color: #F9FAFA;
+}
+
+.companies__logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 60%;
+    height: 110px;
 }
