@@ -130,7 +130,6 @@ body {
 }
 
 /*SECTION COMPANIES */
-
 .companies {
     background-color: #F9FAFA;
 }
@@ -140,6 +139,31 @@ body {
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    width: 60%;
     height: 110px;
+}
+
+/* SECTION ABOUT */
+.about__container {
+    max-width: 1720px;
+    height: 825px;
+}
+
+.about__item {
+    width: 50%;
+    padding: 75px 20px;
+}
+
+.about__content {
+    padding: 120px 130px;
+}
+
+.about__title {
+    font-size: 38px;
+}
+
+.about__text {
+    padding-top: 60px;
+    padding-right: 99px;
+    font-size: 19px;
+    line-height: 1.75;
 }
