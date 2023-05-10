@@ -11,7 +11,7 @@ body {
     display: flex;
     max-width: 1400px;
     margin: 0 auto;
-    outline: 2px solid blue;
+    /* outline: 2px solid blue; */
 }
 
 /* HEADER */
@@ -283,4 +283,24 @@ body {
 
 .icon-facebook {
     width: 10px;
+}
+
+/* FOOTER */
+.footer {
+    background-color: #464646;
+}
+
+.footer__container {
+    justify-content: center;
+    align-items: center;
+    padding: 25px 0;
+}
+
+.footer__text {
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.footer__logo {
+    padding: 10px;
 }
